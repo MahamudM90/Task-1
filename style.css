@@ -26,9 +26,13 @@ h2 {
 
 /* Navigation section */
 .navbar {
-    
-    color:black;
+
+    color: black;
     padding: 1rem 0;
+}
+
+.common {
+    font-weight: 400;
 }
 
 .navbar-sub {
@@ -95,7 +99,7 @@ h2 {
     margin-bottom: 1rem;
 }
 
-.fashion-house{
+.fashion-house {
     color: black;
     font-weight: 400px;
     font-family: Arial, sans-serif;
@@ -106,7 +110,7 @@ h2 {
     height: 100px;
 }
 
-.btn{
+.btn {
     width: 100px;
     height: 40px;
     border-radius: 5px;
@@ -114,7 +118,8 @@ h2 {
     font-weight: 600;
 
 }
-.btn:hover{
+
+.btn:hover {
     width: 105px;
     height: 40px;
     border-radius: 5px;
