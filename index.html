@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Responsive Web Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Navigation Section -->
     <nav class="navbar">
         <div class="container">
-            <div>
-                <img class="logo" src="assets/images/logo.svg">
+            <div class="navbar-sub">
+                <div>
+                    <img class="logo" src="assets/images/logo.svg">
+                </div>
                 <ul class="navbar-links"></ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#product">Product</a></li>
-                <li><a href="#contact">Review</a></li>
+                <p class="common"><a href="#home">Home</a></p>
+                <p><a href="#product">Product</a></p>
+                <p><a href="#review">Review</a></p>
                 </ul>
             </div>
         </div>
@@ -24,47 +28,46 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="text">
-            <h1>Welcome to You Fashion House</h1>
-            <p>Collect Your Favourite Product.</p>
-            <a href="#product" class="btn">Learn More</a>
+            <h1 class="fashion-house">Welcome to You</h1>
+           <h2 class="fashion-house">Happy Shopping</h2>
         </div>
+        
     </section>
 
     <!-- Cards Section -->
     <section id="card-collection" class="card-section">
-        <div class="card-container">
+        <div class="container grid-card">
             <div class="specific-card">
-                <img src="assets/images/1.webp" alt="Card 1">
+                <img class="image" src="assets/images/3.png" alt="Card 1">
                 <h2>Product 1</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button class="btn">Add To Cart</button>
             </div>
             <div class="specific-card">
-                <img src="assets/images/2.png" alt="Card 2">
+                <img class="image" src="assets/images/4.png" alt="Card 2">
                 <h2>Product 2</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button class="btn">Add To Cart</button>
             </div>
             <div class="specific-card">
-                <img src="assets/images/3.png" alt="Card 3">
+                <img class="image" src="assets/images/3.png" alt="Card 2">
                 <h2>Product 3</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button class="btn">Add To Cart</button>
             </div>
             <div class="specific-card">
-                <img src="assets/images/3.png" alt="Card 4">
+                <img class="image" src="assets/images/4.png" alt="Card 2">
                 <h2>Product 4</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-            <div class="specific-card"></div>
-                <img src="assets/images/4.png" alt="Card 4">
-                <h2>Product 5</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-            <div class="specific-card"></div>
-                <img src="assets/images/5.png" alt="Card 4">
-                <h2>Product 6</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button class="btn">Add To Cart</button>
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer id="review" class="footer">
+        <p>Developed 💙 by Mahamud Hasan</p>
+    </footer>
 
 </body>
 
