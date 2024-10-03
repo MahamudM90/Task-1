@@ -15,6 +15,9 @@ A single-page responsive website using HTML5, CSS3, and Vanilla JavaScript
 
 -  The page is mobile-first and optimized for different screen sizes.
 
+## Run it Locally
+$ git clone https://github.com/MahamudM90/Task-1.git
+$ Open with live server
 
 
 
